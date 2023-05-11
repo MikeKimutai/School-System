@@ -14,4 +14,4 @@ close.addEventListener("click",function(){
 })
 
 var getDate = new Date().getFullYear();
-document.write('&copy; copyright  '+getDate+''+'Developed by Mike Kimutai';)
+document.write('&copy; copyright  '+getDate+''+'Developed by Mike Kimutai');
