@@ -59,7 +59,7 @@ header h1{
 }
 
 #nav ul li a:hover {
-	background-color: #043d10;
+	background-color: rgb(163, 7, 7);
 	border-radius: 5px;
 }
 
@@ -68,9 +68,12 @@ header h1{
 	font-size: 20px;
 	background: white;
 	cursor: pointer;
-	margin: 0 5px 0 6px;
+	margin: 2px 8px;
 	float: right;
 	padding: 3px;
+	position: 2rem;
+	margin-top: -2rem;
+
   }
 /* Hero section styles */
 #hero {
@@ -332,7 +335,7 @@ header h1{
 	background-color: #fff;
 	border: 1px solid #ccc;
 	padding: 10px;
-	text-align: left;
+	text-align: center;
 }
 
 .contact-form h3 {
@@ -445,22 +448,41 @@ footer {
     margin-top: 20px;
     text-align: center;
   }
-@media (max-width:600px) {
+  #Date{
+	text-align: center;
+  }
+@media (max-width:700px) {
 	#nav{
 		display:none;
 	}
 	#menus{
 		display: block;
 	}
+	#nav ul{
+		display: block;
+		line-height: 37px;
+		text-align: right;
+	}
 	#nav ul li a{
-font-size: 11px;
+font-size: 15px;
 	}
 }
-  @media (max-width:600px) {
+  @media (max-width:700px) {
 	#hero,.hero-text{
 		font-size: 5px;
 		background-color: #0f0e0e;
 		font: black;
+	}
+	.hero-image img{
+		justify-items: center;
+		display: flex;
+	}
+	header h1{
+		font-size: 25px;
+	}
+	.hero-text, .p, .h2{
+		display: grid;
+		margin-block-start: auto;
 	}
 	.footer-social,.footer-links{
 		display: inline-block;

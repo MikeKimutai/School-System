@@ -12,6 +12,6 @@ close.addEventListener("click",function(){
   document.getElementById("menus").style.display = "block";
   document.getElementById("close").style.display = "none";
 })
-
-var getDate = new Date().getFullYear();
-document.write('&copy; copyright  '+getDate+''+'Developed by Mike Kimutai');
+const getDate = new Date().getFullYear();
+console.log(getDate)
+document.getElementById("Date").innerHTML = getDate;
