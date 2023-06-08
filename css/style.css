@@ -451,50 +451,5 @@ footer {
   #Date{
 	text-align: center;
   }
-@media (max-width:700px) {
-	#nav{
-		display:none;
-	}
-	#menus{
-		display: block;
-	}
-	}
-	#nav ul{
-		display: block;
-		line-height: 37px;
-		text-align: right;
-		font: black;
-	}
-	#nav ul li a{
-font-size: 15px;
-background-color:rgb(163, 7, 7);
-color: #0f0e0e;
-	}
+
 	
-  @media (max-width:700px) {
-	#hero,.hero-text{
-		font-size: 5px;
-		background-color: #0f0e0e;
-	}
-	.hero-image {
-		display: none;
-		
-	}
-	.hero-text p{
-		display: grid;
-	}
-	header h1{
-		font-size: 25px;
-	}
-	.hero-text, .p, .h2{
-		display: grid;
-		margin-block-start: auto;
-	}
-	.footer-social,.footer-links{
-		display: inline-block;
-	}
-	#about,.about-list{
-		display: grid;
-		float: center;
-	}
-  }
