@@ -72,7 +72,7 @@ header h1{
 	float: right;
 	padding: 3px;
 	position: 2rem;
-	margin-top: -2rem;
+	margin-top: -5rem;
 
   }
 /* Hero section styles */
@@ -452,4 +452,32 @@ footer {
 	text-align: center;
   }
 
-	
+	@media (max-width:600px) {
+		
+		#nav{
+			display: none;
+		}
+		#menus{
+			display: block;
+		}
+		#nav ul{
+			display: inline-block;
+			text-align: left;
+			line-height: 40px;
+		}
+		#nav ul li a{
+			font-size: 20px;
+			color: rgb(163, 7, 7);
+		}
+		#nav ul li:hover{
+			background: black;
+		}
+		.hero-image{
+			display: grid;
+			
+		}
+		.hero-text h2 p{
+			text-align: center;
+			display: grid;
+		}
+	}
