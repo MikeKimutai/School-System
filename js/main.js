@@ -15,3 +15,6 @@ close.addEventListener("click",function(){
 const getDate = new Date().getFullYear();
 console.log(getDate)
 document.getElementById("Date").innerHTML = getDate;
+
+
+

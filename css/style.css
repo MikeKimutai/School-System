@@ -462,7 +462,7 @@ footer {
 		}
 		#nav ul{
 			display: inline-block;
-			text-align: left;
+			text-align: center;
 			line-height: 40px;
 		}
 		#nav ul li a{
@@ -479,5 +479,12 @@ footer {
 		.hero-text h2 p{
 			text-align: center;
 			display: grid;
+		}
+		.about-list{
+			display: grid;
+		}
+		.footer-social a{
+			display: block;
+			
 		}
 	}
